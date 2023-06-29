@@ -1,0 +1,243 @@
+:root{
+    --main:rgb(6, 57, 108);
+}
+body{
+    margin:0%;
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+}
+nav{
+    z-index: 10;
+}
+h1{
+    font-size: 5rem;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+.rowCit{
+    height: 50vh;
+}
+h2{
+    font-size: 5rem;
+    color: black;
+}
+h3{
+    color: var(--main);
+    font-weight: 600;
+}
+.citazione{
+    font-family: 'Lato', sans-serif;
+    color: rgba(0,0,0,0.4);
+    position: relative;
+    height: 50%;
+}
+.citazione::before{
+    font-family: 'Lato', sans-serif;
+    content: "“";
+    color: var(--main);
+    font-size: 5.0rem;
+    font-weight: bold;
+    position: absolute;
+    left: -10%; 
+    top: -15%;  
+}
+.citazioneFirma{
+    color: var(--main);
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+    
+}
+
+
+header{
+    background-image: linear-gradient(rgba(6,57,108,0.7), rgba(6,57,108,0.7)) ,url(/media/header.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+}
+nav{
+    position: sticky;
+    top:0%;
+    height: 100px;
+    background-color: var(--main);
+}
+nav ul li{
+    list-style-type: none;
+    background:
+    linear-gradient(to right, rgba(255,255,255) 1px, transparent 2px) 0 50%;
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+}
+.icon{
+    height: 30px;
+    width: 40px;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    left: 25px
+}   
+.power{
+    background-image: linear-gradient(rgba(6,57,108,0.6), rgba(6,57,108,0.6)), url(/media/power-plant-4712830_1280.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    height: 60vh;
+}
+.iconsNum{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 20px;
+}
+.sticker-row{
+    height: 50vh;
+}
+.imgPanel{
+    height: 300px;
+    width: 500px;
+}
+.sticker{
+    background-color: var(--main);
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 2px solid white;
+    position: absolute;
+    right: 38%;
+    top: 42%;
+}
+.subFig{
+    background-color: white;
+    z-index: 5;
+    height: 600px;
+}
+button{
+    background-color: var(--main);
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+.contenitoreBox{
+    background: linear-gradient(to right, rgba(6,57,108,0.6), transparent, transparent);
+    width: 25vw ;
+    height: 200px;
+    position: relative;
+}
+.boxFoto{
+    background-image: url(/media/landscape-975091_1920.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    width: 25vw;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.someStuff{
+    background-color: var(--main);
+    width: 100%;
+}
+.miniBox{
+    width:  350px;
+    height: 150px;
+}
+.f1{
+    background-image: linear-gradient(rgba(6,57,108,0.6), rgba(6,57,108,0.6)), url(/media/sun.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.f2{
+    background-image: linear-gradient(rgba(6,57,108,0.6), rgba(6,57,108,0.6)), url(/media/wind.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.f3{
+    background-image: linear-gradient(rgba(6,57,108,0.6), rgba(6,57,108,0.6)), url(/media/wave.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.f4{
+    background-image: linear-gradient(rgba(6,57,108,0.6), rgba(6,57,108,0.6)), url(/media/gas.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.f5{
+    background-image: linear-gradient(rgba(6,57,108,0.6), rgba(6,57,108,0.6)), url(/media/oil.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.f6{
+    background-image: linear-gradient(rgba(6,57,108,0.6), rgba(6,57,108,0.6)), url(/media/nuclear.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.someStuffRow{
+    height: 50vh;
+}
+.someStuffMob{
+    position: absolute;
+    bottom: 70%;
+}
+.download-text{
+    color: var(--main);
+}
+.downIcon{
+    border: var(--main) solid 2px;
+    height: 25px;
+    width: 25px;
+    margin-top: 20px;
+}
+.download-box{
+    padding: 40px 80px 20px 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.dprog{
+    background-color: transparent;
+}
+label{
+    color: var(--main);
+}
+.barColor{
+    background-color: var(--main);
+    font-family: 'Lato', sans-serif;
+}
+.mobileDescription{
+    background-color: var(--main);
+    width: 25vw;
+    height: 50vh;
+    position: absolute;
+    top: 90%;
+    right: 5%;
+}
+.mobileLi{
+    text-decoration: underline;
+    list-style-type: none;
+    position: relative;
+    padding-bottom: 8px;
+}
+.mobileLi::before{
+    font-family: 'Lato', sans-serif;
+    content: ">";
+    font-weight: lighter;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: -15px;
+    left: -30px;
+}
+footer{
+    background-color: black;
+    height: 50vh;
+}   
+.iconFooter{
+    height: 30px;
+    width: 40px;
+    margin-bottom: 20px;
+}
+footer p {
+    opacity: 0.6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
